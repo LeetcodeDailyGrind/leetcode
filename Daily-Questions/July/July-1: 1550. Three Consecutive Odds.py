@@ -8,14 +8,14 @@ class Solution:
     
     # Option 2 : One pass
     def threeConsecutiveOdds(self, arr: List[int]) -> bool:
-        cosecutiveOdds = 0
+        consecutiveOdds = 0
         for i in range(len(arr)):
             if arr[i] % 2 == 1:
-                cosecutiveOdds += 1
+                consecutiveOdds += 1
             else:
-                cosecutiveOdds = 0
+                consecutiveOdds = 0
             
-            if cosecutiveOdds == 3:
+            if consecutiveOdds == 3:
                 return True
             
         return False
