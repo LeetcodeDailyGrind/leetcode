@@ -8,7 +8,7 @@ class Solution:
             return []
 
         res = []
-        i, j = 0, 0 
+        i, j = 0, 0
         while i < len(nums1) and j < len(nums2):
             if nums1[i] < nums2[j]:
                 i += 1
